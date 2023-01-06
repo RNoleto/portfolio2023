@@ -17,11 +17,11 @@
     <nav>
       <h2 class="logo">Portfo<span>lio</span></h2>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre mim</a></li>
+        <li><a href="#skills">Conhecimentos</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
       </ul>
       <a href="#" class="btn">Inscreva-se</a>
     </nav>
@@ -29,32 +29,57 @@
     <div class="content">
       <h4>Olá, meu nome é</h4>
       <h1>Ramon <span>Noleto</span></h1>
-      <h3>Eu sou Web Developer</h3>
+      <h3>Desenvolvedor Web e <span>Engenheiro de Software</span></h3>
       <div class="newslatter">
         <form action="">
-          <input type="email" name="email" id="mail" placeholder="Enter Your Email">
-          <input type="submit" name="submit" value="Lets Start">
+          <input type="email" name="email" id="mail" placeholder="Digite seu e-mail">
+          <input type="submit" name="submit" value="Enviar">
         </form>
       </div>
     </div>
   </div>
   <!-- About section start -->
-  <section class="about">
+  <section class="about" id="about">
     <div class="main">
       <img src="src/img/main-img.jpg" alt="">
       <div class="about-text">
         <h2>Sobre Mim</h2>
-        <h5>Developer <span>& Software Engineer</span></h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat similique itaque odio voluptate, quo voluptas dolores accusantium asperiores illum ut, a vel in iure deleniti magnam corporis, veniam possimus perferendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat similique itaque odio voluptate, quo voluptas dolores accusantium asperiores illum ut, a vel in iure deleniti magnam corporis, veniam possimus perferendis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat similique itaque odio voluptate, quo voluptas dolores accusantium asperiores illum ut, a vel in iure deleniti magnam corporis, veniam possimus perferendis.</p>
-        <button type="button">Let's Talk</button>
+        <h5>Desenvolvedor Web <span>& Engenheiro de Software</span></h5>
+        <p>Sou uma pessoa que gosta de trabalhar em equipe, gosto de ouvir e compartilhar conhecimento com as pessoas, sou curioso e sempre busco aprender algo novo. Apaixonado por tecnologia, livros, filmes e séries.</p>
+        <p>Sou tecnólogo em Redes de Computadores, pós graduado em Engenharia de Software, tenho experiência de trabalho com infraestrutura de redes, gerenciamento de times e projetos, e desenvolvimento web.</p>
+        <button type="button">Fale comigo</button>
       </div>
     </div>
   </section>
 
-  <!-- Services Section Start -->
-  <div class="service">
+  <!-- Skills Start -->
+  <div class="skills" id="skills">
     <div class="title">
-      <h2>Serviços</h2>
+      <h2>Conhecimentos</h2>
+    </div>
+    <div class="box">
+      <div class="cardSkills">
+        <i class="fa-brands fa-html5"></i>
+      </div>
+      <div class="cardSkills">
+        <i class="fa-brands fa-css3-alt"></i>
+      </div>
+      <div class="cardSkills">
+        <i class="fa-brands fa-square-js"></i>
+      </div>
+      <div class="cardSkills">
+        <i class="fa-brands fa-github"></i>
+      </div>
+      <div class="cardSkills">
+        <i class="fa-brands fa-bitbucket"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services Section Start -->
+  <div class="service" id="projects">
+    <div class="title">
+      <h2>Projetos</h2>
     </div>
 
     <div class="box">
@@ -97,7 +122,7 @@
   </div>
 
   <!-- Contact Me -->
-  <div class="contact-me">
+  <div class="contact-me" id="contact">
     <p>Deixe-me dar-lhe um belo Website.</p>
     <a class="button-two" href="#">Contrate-me</a>
   </div>
@@ -107,9 +132,14 @@
     <p>Ramon Noleto</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae nam perspiciatis cumque ut perferendis voluptatum accusantium reprehenderit eum amet totam dolor eius cupiditate possimus, temporibus recusandae quis quia iusto nisi!</p>
     <div class="social">
-      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-      <a href="#"><i class="fa-brands fa-instagram"></i></a>
-      <a href="#"><i class="fa-brands fa-discord"></i></a>
+      <a href="https://www.linkedin.com/in/ramon-noleto-b0913545/"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://www.instagram.com/noleto_ramon/"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://wa.me/5596981403089?text=Ol%C3%A1%2C+achei+seu+contato+pelo+seu+site%21"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="mailto:devnoleto@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+      <!--
+        Discord 
+        <a href="#"><i class="fa-brands fa-discord"></i></a> 
+      -->
     </div>
     <p class="end">CopyRight By Ramon Noleto</p>
   </footer>

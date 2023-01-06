@@ -183,6 +183,7 @@ button:hover {
   background-color: transparent;
   border: 2px solid #874e5a;
   cursor: pointer;
+  color: #874e5a;
 }
 
 .service {
@@ -204,6 +205,35 @@ button:hover {
   justify-content: center;
   align-items: center;
   min-height: 400px;
+}
+
+.cardSkills {
+  height: auto;
+  width: auto;
+  padding: 20px 35px;
+  background-color: #102c47;
+  border-radius: 25px;
+  margin: 15px;
+  transition: 0.4s;
+}
+
+.cardSkills i {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  font-size: 100px;
+  color: #874e5a;
+}
+
+.cardSkills:hover {
+  background-color: transparent;
+  border: 2px solid #102c47;
+  cursor: pointer;
+  color: #102c47;
+}
+
+.cardSkills i:hover {
+  color: #102c47;
 }
 
 .card {
