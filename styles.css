@@ -215,6 +215,38 @@ button:hover {
   min-height: 400px;
 }
 
+/* card com imagem para projetos */
+.card .card-image {
+  height: 19vh;
+  background-size: cover;
+  margin-bottom: .5rem;
+  border-radius: 15px;
+}
+
+.card-1 {
+  background-image: url('src/img/projetos/projeto1.jpg');
+}
+
+.card-2 {
+  background-image: url('src/img/projetos/projeto2.jpg');
+}
+
+.card-3 {
+  background-image: url('src/img/projetos/projeto3.jpg');
+}
+
+.card-4 {
+  background-image: url('src/img/projetos/projeto4.jpg');
+}
+
+.card-5 {
+  background-image: url('src/img/projetos/projeto5.jpg');
+}
+
+.card-6 {
+  background-image: url('src/img/projetos/projeto6.jpg');
+}
+
 .cardSkills {
   height: auto;
   width: auto;
@@ -223,6 +255,7 @@ button:hover {
   border-radius: 25px;
   margin: 15px;
   transition: 0.4s;
+
 }
 
 .cardSkills i {
