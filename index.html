@@ -18,249 +18,44 @@
 <body>
   <!-- hero section start -->
   <div class="hero">
-    <nav>
+  <!-- Menu section start -->
+  <header class="header">
       <h2 class="logo">Portfo<span>lio</span></h2>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">Sobre mim</a></li>
-        <li><a href="#skills">Conhecimentos</a></li>
-        <li><a href="#projects">Projetos</a></li>
-        <li><a href="#contact">Contato</a></li>
-      </ul>
-      <!-- Inserir Curriculo para download
-        <a href="#" class="btn">Meu Curriculo</a> -->
-    </nav>
-
-    <div class="content">
-      <h4>Olá, meu nome é</h4>
-      <h1>Ramon Noleto </h1>
-      <h3>Desenvolvedor Web e Engenheiro de Software</h3>
-      <!-- Ativar quando tiver conteudo de newslatter
-        <div class="newslatter">
-        <form action="">
-          <input type="email" name="email" id="mail" placeholder="Digite seu e-mail">
-          <input type="submit" name="submit" value="Enviar">
-        </form>
-      </div> -->
+      <nav class="nav">
+        <button class="btn-menu" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false"><span class="hamburger"></span></button>
+        <ul class="menu" role="menu" id="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre mim</a></li>
+          <li><a href="#footer">Contato</a></li>
+        </ul>
+      </nav>
+  
+      <div class="content">
+        <h4>Olá, meu nome é</h4>
+        <h1>Ramon Noleto </h1>
+        <h3>Desenvolvedor Web e Engenheiro de Software</h3>
+      </div>
     </div>
-  </div>
+  </header>
   <!-- About section start -->
   <section class="about" id="about">
     <div class="main">
       <img src="src/img/main-img.jpg" alt="">
       <div class="about-text">
         <h2>Sobre Mim</h2>
-        <h5>Desenvolvedor Web <span>& Engenheiro de Software</span></h5>
+        <h5>Desenvolvedor Web & Engenheiro de Software</h5>
         <p>Gosto de trabalhar em equipe, compartilhar conhecimento e enfrentar novos desafios. Sou uma pessoa comunicativa e criativa, gosto de criar coisas novas e adquirir novos conhecimentos. Sou apaixonado por tecnologia, livros, filmes, series e games, principalmente os que me fazem pensar.</p>
         <p>Sou tecnólogo em Redes de Computadores, pós graduado em Engenharia de Software, tenho experiência de trabalho com infraestrutura de redes, gerenciamento de times e projetos, atendimento ao cliente, e desenvolvimento web.</p>
         <a href="https://wa.me/5596981403089?text=Ol%C3%A1%2C+achei+seu+contato+pelo+seu+site%21" target="_blank">
-          <button type="button">
+          <button type="submit">
             Fale comigo
           </button>
         </a>
       </div>
     </div>
   </section>
-
-  <!-- Skills Start -->
-  <div class="skills" id="skills">
-    <div class="title">
-      <h2>Conhecimentos</h2>
-    </div>
-    <div class="swiper mySwiper container">
-      <div class="swiper-wrapper">
-        <div class="cardSkills swiper-slide">
-          <i class="fa-brands fa-html5">
-
-            <p class="skillTitle">Html 5</p>
-          </i>
-        </div>
-        <div class="cardSkills swiper-slide">
-          <i class="fa-brands fa-css3-alt">
-
-            <p class="skillTitle">CSS 3</p>
-          </i>
-        </div>
-        <div class="cardSkills swiper-slide">
-          <i class="fa-brands fa-square-js">
-            <p class="skillTitle">Javascript</p>
-          </i>
-
-        </div>
-        <div class="cardSkills swiper-slide">
-          <i class="fa-brands fa-github">
-            <p class="skillTitle">Github</p>
-          </i>
-
-        </div>
-        <div class="cardSkills swiper-slide">
-          <i class="fa-brands fa-bitbucket">
-            <p class="skillTitle">Bitbucket</p>
-          </i>
-
-        </div>
-        <div class="cardSkills swiper-slide">
-          <i class="fa-brands fa-figma">
-            <p class="skillTitle">Figma</p>
-          </i>
-        </div>
-      </div>
-    <!-- <div class="box swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="cardSkills swiper-slide">
-          <i class="fa-brands fa-html5"></i>
-        </div>
-      </div>
-      <div class="cardSkills">
-        <i class="fa-brands fa-css3-alt"></i>
-      </div>
-      <div class="cardSkills">
-        <i class="fa-brands fa-square-js"></i>
-      </div>
-      <div class="cardSkills">
-        <i class="fa-brands fa-github"></i>
-      </div>
-      <div class="cardSkills">
-        <i class="fa-brands fa-bitbucket"></i>
-      </div>
-      <div class="cardSkills">
-        <i class="fa-brands fa-figma"></i>
-      </div>
-    </div> -->
-    <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
-  </div>
-
-  <!-- Services Section Start -->
-  <div class="service" id="projects">
-    <div class="title">
-      <h2>Projetos</h2>
-    </div>
-<!-- Inicio dos Modelos -->
-    <!-- <div class="box">
-      <div class="card">
-        <i class="fas fa-bars"></i>
-        <h5>Web Development</h5>
-        <div class="pra">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus laboriosam!</p>
-
-        <p style="text-align: center;">
-          <a class="button" href="#">Saiba Mais</a>
-        </p>
-        </div>
-      </div>
-
-      <div class="card">
-        <i class="fas fa-user"></i>
-        <h5>Web Development</h5>
-        <div class="pra">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, odit consectetur?</p>
-
-          <p style="text-align: center;">
-            <a class="button" href="#">Saiba Mais</a>
-          </p>
-        </div>
-      </div>
-
-      <div class="card">
-        <i class="fas fa-bell"></i>
-        <h5>Web Development</h5>
-        <div class="pra">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, consequuntur?</p>
-
-          <p style="text-align: center;">
-            <a class="button" href="#">Saiba Mais</a>
-          </p>
-        </div>
-      </div>
-    </div> -->
-<!-- Fim dos Modelos -->
-<div class="swiper mySwiper container">
-
-  <!-- Card 1 -->
-  <div class="swiper-wrapper">
-
-    <div class="card swiper-slide">
-      <div class="card-image card-1"></div>
-      <h5>Adopet's</h5>
-      <div class="pra">
-        <p>Single Page responsiva para adoção de animais.</p>
-        <p style="text-align: center;">
-          <a class="button" href="https://rnoleto.github.io/adopets/" target="_blank">Saiba Mais</a>
-        </p>
-      </div>
-    </div>
-    <!-- Card 2 -->
-    <div class="card swiper-slide">
-      <div class="card-image card-2"></div>
-      <h5>BarberShop</h5>
-      <div class="pra">
-        <p>Página desenvolvida para barbearia.</p>
-        <p style="text-align: center;">
-          <a class="button" href="https://rnoleto.github.io/barbershop/" target="_blank">Saiba Mais</a>
-        </p>
-      </div>
-    </div>
-    <!-- Card 3 -->
-    <div class="card swiper-slide">
-      <div class="card-image card-3"></div>
-      <h5>FlexBlog</h5>
-      <div class="pra">
-        <p>Single Page desenvolvida com flex box.</p>
-        <p style="text-align: center;">
-          <a class="button" href="https://rnoleto.github.io/FlexBlog/" target="_blank">Saiba Mais</a>
-        </p>
-      </div>
-    </div>
-    <!-- Card 4 -->
-    <div class="card swiper-slide">
-      <div class="card-image card-4"></div>
-      <h5>Gerador de senha</h5>
-      <div class="pra">
-        <p>Gerador de senha automatico. Escolha o Nº de caracteres.</p>
-        <p style="text-align: center;">
-          <a class="button" href="https://rnoleto.github.io/geradorSenha/" target="_blank">Saiba Mais</a>
-        </p>
-      </div>
-    </div>
-  
-  <!-- Card 5 -->
-    <div class="card swiper-slide">
-      <div class="card-image card-5"></div>
-      <h5>Verificador de Idade</h5>
-      <div class="pra">
-        <p>Gerador de senha automatico. Insira informações no formulario.</p>
-        <p style="text-align: center;">
-          <a class="button" href="https://rnoleto.github.io/VerificadorDeIdade/" target="_blank">Saiba Mais</a>
-        </p>
-      </div>
-    </div>
-    <div class="card swiper-slide">
-      <div class="card-image card-6"></div>
-      <h5>Hora do dia</h5>
-      <div class="pra">
-        <p>Muda o layout de acordo com a hora do dia.</p>
-        <p style="text-align: center;">
-          <a class="button" href="https://rnoleto.github.io/VerificadorDeIdade/" target="_blank">Saiba Mais</a>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-pagination"></div>
-</div>
-</div>
-
-  <!-- Contact Me -->
-  <div class="contact-me" id="contact">
-    <p>Deixe-me dar-lhe um belo Website.</p>
-    <a class="button-two" href="https://wa.me/5596981403089?text=Ol%C3%A1%2C+achei+seu+contato+pelo+seu+site%21" target="_blank">Contrate-me</a>
-  </div>
-
   <!-- Footer start -->
-  <footer>
+  <footer id="footer">
     <p>Ramon Noleto</p>
     <p>Pós graduado em Engenharia de Software, desenvolvedor web e consultor de técnologia. Conheça minha rede e faça um orçamento sem compromisso.</p>
     <div class="social">
@@ -268,17 +63,9 @@
       <a href="https://www.instagram.com/noleto_ramon/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
       <a href="https://wa.me/5596981403089?text=Ol%C3%A1%2C+achei+seu+contato+pelo+seu+site%21" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
       <a href="mailto:devnoleto@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
-      <!--
-        Discord 
-        <a href="#"><i class="fa-brands fa-discord"></i></a> 
-      -->
     </div>
     <p class="end">CopyRight By Ramon Noleto</p>
   </footer>
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Initialize Swiper -->
   <script src="script.js"></script>
 </body>
 </html>
