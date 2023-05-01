@@ -197,6 +197,10 @@ h5 {
   margin-bottom: 15px;
 }
 
+/* ========== SKILLS ========== */
+
+/* Skills */
+
 /* ========== FOOTER ========== */
 footer {
   position: relative;
@@ -317,6 +321,10 @@ footer p:nth-child(2) {
     overflow-y: auto;
   }
 
+  .scrollBlock{
+    overflow: hidden;
+  }
+
   .nav.active .hamburger {
     border-top-color: transparent;
   }
@@ -362,7 +370,7 @@ footer p:nth-child(2) {
   }
 
   .about .main img {
-    width: 200px;
+    width: 300px;
   }
 
   /* Footer */
