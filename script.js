@@ -46,3 +46,13 @@ function setAria() {
 
 btnMenu.addEventListener("click", handleButtonClick);
 btnMenu.addEventListener("touchstart", handleButtonClick);
+
+//  Quando clicar em um item do link do menu, esconder menu
+
+const links = document.querySelectorAll('nav ul li a')
+for (const link of links) {
+  link.addEventListener('click', function () {
+    nav.classList.remove('active')
+    body.classList.remove("scrollBlock");
+  })
+}
