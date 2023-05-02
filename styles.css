@@ -344,6 +344,11 @@ footer p:nth-child(2) {
     z-index: 2;
   }
 
+  .bold{
+    color: var(--second-color);
+    text-shadow: 1px 1px 1px var(--base-color), 1px 1px 1px var(--base-color);
+  }
+
   /* Ativação Menu */
   .nav.active .menu {
     top: 0;
@@ -368,6 +373,11 @@ footer p:nth-child(2) {
     transform: rotate(-135deg);
     top: -0.4375rem;
   }
+
+  .menu a:visited{
+    color: var(--base-color);
+  }
+
 
   /* About */
   .about .main {
