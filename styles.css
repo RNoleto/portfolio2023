@@ -344,9 +344,11 @@ footer p:nth-child(2) {
     z-index: 2;
   }
 
-  .bold{
-    color: var(--second-color);
-    text-shadow: 1px 1px 1px var(--base-color), 1px 1px 1px var(--base-color);
+  .content h4,
+  .content h1,
+  .content h3{
+    color: var(--base-color);
+    text-shadow: 1px 1px 1px var(--second-color), 1px 1px 1px var(--second-color);
   }
 
   /* Ativação Menu */
