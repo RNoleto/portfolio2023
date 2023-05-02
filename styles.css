@@ -39,6 +39,11 @@ html {
   padding: 1rem;
 }
 
+.row{
+  display: flex;
+  flex-direction: column;
+}
+
 .menu {
   display: flex;
   gap: 0.5rem;
@@ -198,8 +203,34 @@ h5 {
 }
 
 /* ========== SKILLS ========== */
+.skills{
+  color: var(--base-color);
+}
 
-/* Skills */
+.skills h1{
+  color: var(--second-color);
+}
+
+.swiper{
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card{
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius:.5rem;
+  padding: 1.5rem .5rem;
+  background-color: var(--second-color);
+}
+
+.card a{
+  font-size: 48px;
+  margin-bottom: 1rem;
+}
 
 /* ========== FOOTER ========== */
 footer {
@@ -355,7 +386,8 @@ footer p:nth-child(2) {
 
   .about-text h2,
   h5,
-  p {
+  p,
+   {
     text-align: center;
   }
 
@@ -363,6 +395,10 @@ footer p:nth-child(2) {
     width: 100%;
     text-align: center;
     font-size: 18px;
+  }
+
+  .skills h1{
+    font-size: 50px;
   }
 
   .about-text h2 {
@@ -374,6 +410,9 @@ footer p:nth-child(2) {
   }
 
   /* Footer */
+  footer{
+    padding: 1rem;
+  }
   footer p:nth-child(2) {
     width: auto;
   }
