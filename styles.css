@@ -255,12 +255,13 @@ h5 {
   color: var(--second-color);
   font-size: 18px;
   margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 .cards .card img{
   padding:0  1rem;
   width: 250px;
-  height: auto;
+  height: 150px;
   
 }
 
@@ -451,6 +452,10 @@ footer p:nth-child(2) {
 
   .about .main img {
     width: 300px;
+  }
+
+  .projects .cards {
+    justify-content: center;
   }
 
   /* Footer */
