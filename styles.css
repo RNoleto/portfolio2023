@@ -240,29 +240,33 @@ h5 {
   gap: 1.5rem;
 }
 
-.projects .cards{
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-wrapper{
   display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
 }
 
-.cards .card {
-  background-color: var(--base-color);
-  width: auto;
+.projects .main{
+  overflow: hidden;
 }
 
-.cards .card h3{
-  color: var(--second-color);
+.swiper-slide {
+  text-align: center;
   font-size: 18px;
-  margin-top: 1rem;
-  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.cards .card img{
-  padding:0  1rem;
-  width: 250px;
-  height: 150px;
-  
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
 }
 
 /* ========== FOOTER ========== */
@@ -452,27 +456,6 @@ footer p:nth-child(2) {
 
   .about .main img {
     width: 300px;
-  }
-
-  .swiper {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 5px;
   }
 
   /* Footer */
