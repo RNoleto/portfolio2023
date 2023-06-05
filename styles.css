@@ -124,7 +124,7 @@ h4 {
 }
 
 .about-text {
-  width: 550px;
+  max-width: 550px;
 }
 
 .main {
@@ -133,6 +133,7 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  gap: 2rem;
 }
 
 .about-text h2 {
@@ -213,7 +214,9 @@ h5 {
 }
 
 .swiper {
+  justify-content: center;
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   padding: 1rem;
 }
@@ -261,6 +264,7 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
+  justify-content: space-between;
 }
 
 .cards .card {
@@ -345,7 +349,7 @@ footer p:nth-child(2) {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 
   /* Menu */
   .menu {
@@ -463,7 +467,7 @@ footer p:nth-child(2) {
     font-size: 18px;
   }
 
-  .skills h1 {
+  .skills h2 {
     font-size: 50px;
   }
 
@@ -486,5 +490,23 @@ footer p:nth-child(2) {
 
   footer p:nth-child(2) {
     width: auto;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+
+  /* about */
+  #about img {
+    width: 80%;
+  }
+
+  /* social */
+  .social {
+    gap: 0;
+  }
+
+  .social a {
+    margin: 22px 5px;
   }
 }
