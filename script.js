@@ -56,3 +56,25 @@ for (const link of links) {
     body.classList.remove("scrollBlock");
   })
 }
+
+//Formulario de contato
+
+function validarFormulario() {
+  var nome = document.forms["contato"]["nome"].value;
+  var celular = document.forms["contato"]["celular"].value;
+  var email = document.forms["contato"]["email"].value;
+  var mensagem = document.forms["contato"]["mensagem"].value;
+
+  // Verifica se os campos estão vazios
+  if (nome == "" || celular == "" || email == "" || mensagem == "") {
+    alert("Por favor, preencha todos os campos.");
+    return false;
+  }
+
+  // Verifica o formato do e-mail
+  // var emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2, 3})+$/;
+  // if (!email.match(emailRegex)) {
+  //   alert("Por favor, insira um endereço de e-mail válido.");
+  //   return false;
+  // }
+}

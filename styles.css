@@ -291,6 +291,18 @@ h5 {
   border-radius: 5px;
 }
 
+/* ========== FORMULARIO ========== */
+#contact {
+  padding: 1rem 0;
+}
+
+form {
+  border: 2px solid var(--second-color);
+  border-radius: 15px;
+  padding: 2rem;
+}
+
+
 /* ========== FOOTER ========== */
 footer {
   position: relative;
