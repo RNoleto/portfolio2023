@@ -4,7 +4,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-require 'src/ferramentas/vendor/autoload.php';
+require 'vendor/autoload.php';
 
 // Configurações do servidor de e-mail
 $mail = new PHPMailer(true);
