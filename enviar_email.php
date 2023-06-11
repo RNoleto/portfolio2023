@@ -1,8 +1,8 @@
 <?php
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer;
+use PHPMailer\SMTP;
+use PHPMailer\Exception;
 
 require 'vendor/autoload.php';
 
