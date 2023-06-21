@@ -78,3 +78,14 @@ function validarFormulario() {
   //   return false;
   // }
 }
+
+var swiper = new Swiper('.mySwiper', {
+  slidesPerView: 'auto',
+  slidesPerGroup: 2,
+  slidesPerColumnFill: 'row',
+  slidesPerColumn: 2,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
