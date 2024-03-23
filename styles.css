@@ -264,7 +264,7 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .cards .card {
@@ -280,7 +280,7 @@ h5 {
 
 .cards .card h3 {
   color: var(--second-color);
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 1rem;
   margin-bottom: 0;
 }
@@ -567,8 +567,15 @@ footer p:nth-child(2) {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 380px) {
+  .content {
+    overflow: hidden;
+    width: 300px;
+    height: auto;
+  }
+}
 
+@media only screen and (max-width: 320px) {
 
   /* about */
   #about img {
