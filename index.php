@@ -1,50 +1,11 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" href="styles.css">
-
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <title>Portfolio</title>
-</head>
-
-<body>
-  <!-- hero section start -->
-  <div class="hero">
-    <!-- Menu section start -->
-    <header class="header">
-      <h2 class="logo"><span>R</span>Noleto<span>.</span></h2>
-      <nav class="nav">
-        <button class="btn-menu" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false"><span class="hamburger"></span></button>
-        <ul class="menu" role="menu" id="menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">Sobre mim</a></li>
-          <li><a href="#skills">Conhecimentos</a></li>
-          <li><a href="#projects">Projetos</a></li>
-          <li><a href="#footer">Contato</a></li>
-        </ul>
-      </nav>
-
-      <div class="content">
-        <h4>Olá, meu nome é</h4>
-        <h1>Ramon Noleto</h1>
-        <h3>Desenvolvedor Web e Engenheiro de Software</h3>
-      </div>
-  </div>
-  </header>
+<?php get_header(); ?>
   <!-- About section start -->
   <section class="about" id="about">
     <div class="main">
-      <img src="src/img/main-img.jpg" alt="">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/main-img.jpg" alt="">
       <div class="about-text">
         <h2>Sobre Mim</h2>
-        <h5>Desenvolvedor Web & Engenheiro de Software</h5>
+        <h5>Desenvolvedor Web.</h5>
         <p>Gosto de trabalhar em equipe, compartilhar conhecimento e enfrentar novos desafios. Sou uma pessoa comunicativa e criativa, gosto de criar coisas novas e adquirir novos conhecimentos. Sou apaixonado por tecnologia, livros, filmes, series e games, principalmente os que me fazem pensar.</p>
         <p>Sou tecnólogo em Redes de Computadores, pós graduado em Engenharia de Software, tenho experiência de trabalho com infraestrutura de redes, gerenciamento de times e projetos, atendimento ao cliente, e desenvolvimento web.</p>
         <a href="https://wa.me/5596981403089?text=Ol%C3%A1%2C+achei+seu+contato+pelo+seu+site%21" target="_blank">
@@ -98,35 +59,35 @@
       <h1>Projetos</h1>
       <div class="cards">
         <div class="card">
-          <img src="src/img/projetos/animaisfantasticos.jpg" alt="Site Animais Fantasticos">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/projetos/animaisfantasticos.jpg" alt="Site Animais Fantasticos">
           <h3>Animais Fantásticos</h3>
           <a href="https://rnoleto.github.io/Animais-Fantasticos/" target="_blank">
             <button class="submit">Conhecer</button>
           </a>
         </div>
         <div class="card">
-          <img src="src/img/projetos/todolist.jpg" alt="Lista de tarefas Online">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/projetos/todolist.jpg" alt="Lista de tarefas Online">
           <h3>Lista de Tarefas</h3>
           <a href="https://rnoleto.github.io/To-Do-List-Inbreap/" target="_blank">
             <button class="submit">Conhecer</button>
           </a>
         </div>
         <div class="card">
-          <img src="src/img/projetos/horadodia.jpg" alt="Site que muda suas cores de acordo com a hora do dia">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/projetos/horadodia.jpg" alt="Site que muda suas cores de acordo com a hora do dia">
           <h3>Hora do Dia</h3>
           <a href="https://rnoleto.github.io/HoraDia/" target="_blank">
             <button class="submit">Conhecer</button>
           </a>
         </div>
         <div class="card">
-          <img src="src/img/projetos/flexBlog.jpg" alt="Site feito em flex blox">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/projetos/flexBlog.jpg" alt="Site feito em flex blox">
           <h3>Flex Blog</h3>
           <a href="https://rnoleto.github.io/FlexBlog/" target="_blank">
             <button class="submit">Conhecer</button>
           </a>
         </div>
         <div class="card">
-          <img src="src/img/projetos/geradordesenha.jpg" alt="Site Gerador de senha">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/projetos/geradordesenha.jpg" alt="Site Gerador de senha">
           <h3>Gerador de Senha</h3>
           <a href="https://rnoleto.github.io/geradorSenha/" target="_blank">
             <button class="submit">Conhecer</button>
@@ -165,19 +126,4 @@
     </div>
   </section> -->
   <!-- Footer start -->
-  <footer id="footer">
-    <p>Ramon Ribeiro Noleto</p>
-    <p>Pós graduado em Engenharia de Software, desenvolvedor web e consultor de técnologia. Conheça minha rede e faça um orçamento sem compromisso.</p>
-    <div class="social">
-      <a href="https://www.linkedin.com/in/ramon-noleto-b0913545/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a><a href="https://github.com/RNoleto" target="_blank"><i class="fa-brands fa-github"></i></a>
-      <a href="https://www.instagram.com/noleto_ramon/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-      <a href="https://wa.me/5596981403089?text=Ol%C3%A1%2C+achei+seu+contato+pelo+seu+site%21" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-      <a href="mailto:devnoleto@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
-    </div>
-    <p class="end">CopyRight By Ramon Ribeiro Noleto</p>
-  </footer>
-  <script src="script.js"></script>
-  
-</body>
-
-</html>
+  <?php get_footer(); ?>
