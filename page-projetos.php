@@ -11,7 +11,7 @@
 <!-- Inicio de conteudo de Projetos -->
 <section class="projects" id="projects">
     <div class="main">
-      <h1>Projetos</h1>
+      <h1><?php the_title(); ?></h1>
       <div class="cards">
         <div class="card">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/projetos/animaisfantasticos.jpg" alt="Site Animais Fantasticos">

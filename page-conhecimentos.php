@@ -11,7 +11,7 @@
 <!-- Inicio de conteudo de Projetos -->
 <section class="skills" id="skills">
     <div class="main row">
-      <h1><span>Conhecimentos</span></h1>
+      <h1><span><?php the_title(); ?></span></h1>
       <div class="swiper">
         <div class="card">
           <a><i class="fa-brands fa-html5"></i></a>
