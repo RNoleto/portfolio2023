@@ -16,7 +16,9 @@ Version: 1.0
   box-sizing: border-box;
 }
 
-li a {
+li a,
+a {
+  color: var(--base-color);
   list-style-type: none;
   text-decoration: none;
 }
@@ -66,6 +68,14 @@ html {
 }
 
 span {
+  color: var(--second-color);
+  text-shadow: 1px 1px 1px var(--base-color), 1px 1px 1px var(--base-color);
+}
+.logo a:hover span{
+  color: var(--base-color);
+  text-shadow: 1px 1px 1px var(--second-color), 1px 1px 1px var(--second-color);
+}
+.logo a:hover{
   color: var(--second-color);
   text-shadow: 1px 1px 1px var(--base-color), 1px 1px 1px var(--base-color);
 }

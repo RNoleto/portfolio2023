@@ -22,15 +22,15 @@
   <div class="hero">
     <!-- Menu section start -->
     <header class="header">
-      <h2 class="logo"><span>R</span>Noleto<span>.</span></h2>
+      <h2 class="logo"><a href="/"><span>R</span>Noleto<span>.</span></a></h2>
       <nav class="nav">
         <button class="btn-menu" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false"><span class="hamburger"></span></button>
         <ul class="menu" role="menu" id="menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">Sobre mim</a></li>
-          <li><a href="#skills">Conhecimentos</a></li>
-          <li><a href="#projects">Projetos</a></li>
-          <li><a href="#footer">Contato</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/sobre">Sobre mim</a></li>
+          <li><a href="/conhecimentos">Conhecimentos</a></li>
+          <li><a href="/projetos">Projetos</a></li>
+          <li><a href="/contato">Contato</a></li>
         </ul>
       </nav>
 
