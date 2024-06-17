@@ -30,14 +30,14 @@
           <li><a href="/sobre">Sobre mim</a></li>
           <li><a href="/conhecimentos">Conhecimentos</a></li>
           <li><a href="/projetos">Projetos</a></li>
-          <li><a href="/contato">Contato</a></li>
+          <!-- <li><a href="/contato">Contato</a></li> -->
         </ul>
       </nav>
 
       <div class="content">
         <h4>Olá, meu nome é</h4>
         <h1>Ramon Noleto</h1>
-        <h3>Desenvolvedor Web e Engenheiro de Software</h3>
+        <h3>Desenvolvedor Web.</h3>
       </div>
   </div>
   </header>
