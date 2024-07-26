@@ -32,7 +32,7 @@ function cmb2_fields_sobre(){
         'object_types' => ['page'],
         'show_on' => [
             'key' => 'page-template',
-            'value' => 'page-sobre.php'
+            'value' => ['page-home.php','page-sobre.php']
         ],
     ]);
 
@@ -43,6 +43,20 @@ function cmb2_fields_sobre(){
         'options' => [
             'url' => false,
         ],
+    ]);
+
+    $cmb->add_field([
+        'name' => 'Titulo',
+        'id' => 'titulo',
+        'type' => 'text',
+
+    ]);
+
+    $cmb->add_field([
+        'name' => 'Descrição',
+        'id' => 'descricao',
+        'type' => 'textarea',
+
     ]);
 }
 
