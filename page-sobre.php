@@ -7,7 +7,7 @@
 
         <section class="about" id="about">
             <div class="main">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/main-img.jpg" alt="">
+                <img src="<?php the_field2('foto'); ?>" alt="Foto de perfil">
                 <div class="about-text">
                     <h2><?php the_title(); ?></h2>
                     <h5>Desenvolvedor Web.</h5>
