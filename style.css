@@ -293,20 +293,21 @@ h5 {
   gap: 15px;
   background-color: var(--base-color);
   width: auto;
-  padding: 1rem;
+  padding: 10px;
   border-radius: 15px;
 }
 
 .cards .card h3 {
   color: var(--second-color);
   font-size: 20px;
-  margin-top: 1rem;
   margin-bottom: 0;
 }
 
 .cards .card img {
   width: 250px;
   height: 150px;
+  object-fit: cover;
+  object-position: top;
   border-radius: 5px;
 }
 

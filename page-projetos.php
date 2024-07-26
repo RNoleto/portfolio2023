@@ -13,41 +13,21 @@
     <div class="main">
       <h1><?php the_title(); ?></h1>
       <div class="cards">
-        <div class="card">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/projetos/animaisfantasticos.jpg" alt="Site Animais Fantasticos">
-          <h3>Animais Fantásticos</h3>
-          <a href="https://rnoleto.github.io/Animais-Fantasticos/" target="_blank">
-            <button class="submit">Conhecer</button>
-          </a>
-        </div>
-        <div class="card">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/projetos/todolist.jpg" alt="Lista de tarefas Online">
-          <h3>Lista de Tarefas</h3>
-          <a href="https://rnoleto.github.io/To-Do-List-Inbreap/" target="_blank">
-            <button class="submit">Conhecer</button>
-          </a>
-        </div>
-        <div class="card">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/projetos/horadodia.jpg" alt="Site que muda suas cores de acordo com a hora do dia">
-          <h3>Hora do Dia</h3>
-          <a href="https://rnoleto.github.io/HoraDia/" target="_blank">
-            <button class="submit">Conhecer</button>
-          </a>
-        </div>
-        <div class="card">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/projetos/flexBlog.jpg" alt="Site feito em flex blox">
-          <h3>Flex Blog</h3>
-          <a href="https://rnoleto.github.io/FlexBlog/" target="_blank">
-            <button class="submit">Conhecer</button>
-          </a>
-        </div>
-        <div class="card">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/projetos/geradordesenha.jpg" alt="Site Gerador de senha">
-          <h3>Gerador de Senha</h3>
-          <a href="https://rnoleto.github.io/geradorSenha/" target="_blank">
-            <button class="submit">Conhecer</button>
-          </a>
-        </div>
+        <!-- Inicio do loop de projetos vindo do wordpress -->
+        <?php 
+        $projetos = get_field2('projetos');
+        if(isset($projetos)) { 
+          foreach($projetos as $projeto) { ?>
+          
+          <div class="card">
+            <img src="<?php echo $projeto['imagem']; ?>" alt="<?php echo $projeto['nome']; ?>">
+            <h3><?php echo $projeto['nome']; ?></h3>
+            <a href="<?php echo $projeto['url'] ?>" target="_blank">
+              <button class="submit">Conhecer</button>
+            </a>
+          </div>
+        <?php } }?>
+        <!-- Fim do loop de projetos vindo do wordpress -->
       </div>
     </div>
   </section>
